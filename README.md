@@ -1,6 +1,6 @@
-# Jutge Dark Mode (Chrome Extension)
+# Jutge Dark Mode (Chromium Extension)
 
-A tiny Chrome extension that applies a dark theme to `jutge.org`, with syntax highlighting for code blocks.
+A tiny Chromium-based browser extension that applies a dark theme to `jutge.org`, with syntax highlighting for code blocks.
 
 ## Features
 
@@ -14,9 +14,17 @@ A tiny Chrome extension that applies a dark theme to `jutge.org`, with syntax hi
 - `init.js` - DOM tweaks + highlight.js initialization
 - `highlight.min.js`, `cpp.min.js`, `dark.min.css` - syntax highlighter assets
 
+## Supported browsers
+
+- Chrome (desktop)
+- Edge (Chromium)
+- Brave
+- Opera
+- Any other Chromium-based browser with extension support
+
 ## Install (Development Mode)
 
-1. Open Chrome and navigate to `chrome://extensions/`.
+1. Open Chrome (or Edge/Brave/etc.) and navigate to `chrome://extensions/` (or equivalent in other browsers).
 2. Enable Developer mode (toggle in top-right).
 3. Click `Load unpacked`.
 4. Select this project folder (`jutge-dark-mode-chrome-ext`).
