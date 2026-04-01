@@ -1,0 +1,96 @@
+:root {
+  --dark-bg: #222222;
+  --dark-bg-alt: #181818;
+  --dark-text: #ffffff;
+  --dark-code: #00ff00;
+  --dark-link: cyan;
+  --dark-hover: #333333;
+}
+
+/* Base surface */
+.container,
+.panel,
+.panel-body,
+.panel-heading,
+.panel-footer,
+body,
+.legend,
+.list-group-item,
+footer,
+.modal-content,
+.odd,
+table {
+  background-color: var(--dark-bg) !important;
+  color: var(--dark-text) !important;
+}
+
+/* Code blocks */
+pre,
+code {
+  background-color: var(--dark-bg) !important;
+  color: var(--dark-code) !important;
+}
+
+/* Generic text */
+h2,
+p,
+table,
+.flot-tick-label,
+.tickLabel {
+  color: var(--dark-text) !important;
+}
+
+/* Syntax classes */
+.n,
+.cpf {
+  color: var(--dark-code) !important;
+}
+
+.o {
+  color: #00a100 !important;
+}
+
+.p {
+  color: #6dff6d !important;
+}
+
+/* Controls and active tabs */
+.nav-tabs>li.active>a,
+.nav-tabs>li>a:hover,
+input,
+select,
+.jumbotron,
+.dropdown-menu,
+button {
+  background-color: var(--dark-bg-alt) !important;
+  color: var(--dark-text) !important;
+}
+
+/* Hover states */
+.dropdown-menu>li>a:hover {
+  background-color: var(--dark-hover) !important;
+  color: var(--dark-text) !important;
+}
+
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li>a:hover {
+  color: var(--dark-text) !important;
+}
+
+a {
+  color: var(--dark-link) !important;
+}
+
+/* Custom warning */
+.alert-warning {
+  background-color: #685d20 !important;
+  color: var(--dark-text) !important;
+}
+
+/* Custom text on landing page */
+.jdm-subtitle {
+  color: var(--dark-code) !important;
+  font-family: 'Courier New', Courier, monospace !important;
+  font-size: 200% !important;
+  font-weight: 100 !important;
+}

@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Jutge Dark Mode",
+  "version": "1.0",
+  "description": "View jutge.org in Dark Mode - made with ♥ by Carlo S.",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.jutge.org/*"
+      ],
+      "css": [
+        "styles.css",
+        "dark.min.css"
+      ],
+      "js": [
+        "highlight.min.js",
+        "cpp.min.js",
+        "init.js"
+      ]
+    }
+  ]
+}
